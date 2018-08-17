@@ -1,0 +1,53 @@
+.index-tabs-about {
+
+}
+
+.index-tabs-about__menu {
+  padding-left: ($gutter / 2);
+
+  @include mq-min(736px) {
+    padding-left: ($gutter / 1);
+  }
+}
+
+// .index-tabs-about__menu {
+//   display: flex;
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   list-style: none;
+//   border-bottom: 6px solid #f5f5f5;
+
+//   @include mq-max(767px) {
+//     justify-content: center;
+//   }
+// }
+
+// .index-tabs-about__item {
+//   margin-bottom: -6px;
+// }
+
+// .index-tabs-about__link {
+//   display: block;
+//   padding: 6px 12px;
+//   font-weight: 400;
+//   font-size: 27px;
+//   text-decoration: none;
+//   text-align: center;
+//   color: $muted-color;
+//   border-bottom: 6px solid transparent;
+//   transition: $duration * 1.5;
+
+//   &:hover,
+//   &:focus {
+//     color: $base-color;
+//   }
+
+//   .active & {
+//     color: $base-color;
+//     border-bottom-color: #e0e0e0;
+//   }
+// }
+
+// .index-tabs-about__pane {
+//   padding-top: 20px;
+// }

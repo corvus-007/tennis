@@ -1,0 +1,11 @@
+.common-page-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.15;
+
+  @include mq-min(768px) {
+    font-size: vh(50);
+  }
+}

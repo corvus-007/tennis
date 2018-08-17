@@ -1,0 +1,24 @@
+.feed-news__list {
+  @include clear-list();
+
+  overflow: hidden;
+}
+
+.feed-news__item {
+  @include mq-min(568px) {
+    float: left;
+    width: 50%;
+
+    &:first-child {
+      width: 100%;
+    }
+  }
+
+  @include mq-min(1024px) {
+    width: 25%;
+
+    &:first-child {
+      width: 50%;
+    }
+  }
+}
