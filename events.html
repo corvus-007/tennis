@@ -44,12 +44,52 @@
         </header>
         <div class="common-page__body container">
           <div class="common-page__main-content">
-
-          </div>
-          <div class="common-page__aside common-page-aside">
-            <div class="common-page-aside__module">
-
-            </div>
+            <ul class="preview-events">
+              <li class="preview-events__item preview-event" data-tilt>
+                <a class="preview-event__wraplink" href="one-events.html">
+                  <div class="preview-event__picture">
+                    <img src="https://images.unsplash.com/photo-1507138170390-6625c5fd0115?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db7fc3d0c04df906db54250262fffee3&auto=format&fit=crop&w=1350&q=80" alt="Valencia">
+                  </div>
+                </a>
+                <div class="preview-event__content">
+                  <span class="preview-event__date common-date">10-го сентября 2018 – 16-го сентября 2018</span>
+                  <h3 class="preview-event__title">Valencia</h3>
+                </div>
+              </li>
+              <li class="preview-events__item preview-event" data-tilt>
+                <a class="preview-event__wraplink" href="one-events.html">
+                  <div class="preview-event__picture">
+                    <img src="https://images.unsplash.com/photo-1518599904199-0ca897819ddb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=deea750a2b0cd7d33c8d3e4b9c680968&auto=format&fit=crop&w=1347&q=80" alt="Saint-Malo">
+                  </div>
+                </a>
+                <div class="preview-event__content">
+                  <span class="preview-event__date common-date">17-го сентября 2018 – 23-го сентября 2018</span>
+                  <h3 class="preview-event__title">Saint-Malo</h3>
+                </div>
+              </li>
+              <li class="preview-events__item preview-event" data-tilt>
+                <a class="preview-event__wraplink" href="one-events.html">
+                  <div class="preview-event__picture">
+                    <img src="https://images.unsplash.com/photo-1517263856247-2766cfd802a2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07d30e0a874a9582dfd8af9dbf35a59b&auto=format&fit=crop&w=1350&q=80" alt="Тренировки в Академии Александра Островского">
+                  </div>
+                </a>
+                <div class="preview-event__content">
+                  <span class="preview-event__date common-date">10-го сентября 2018 – 16-го сентября 2018</span>
+                  <h3 class="preview-event__title">Тренировки в Академии Александра Островского</h3>
+                </div>
+              </li>
+              <li class="preview-events__item preview-event" data-tilt>
+                <a class="preview-event__wraplink" href="one-events.html">
+                  <div class="preview-event__picture">
+                    <img src="https://images.unsplash.com/photo-1499510318569-1a3d67dc3976?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=911c7bc178aaf1fc1484f7c61a28cf42&auto=format&fit=crop&w=2000&q=80" alt="US Open">
+                  </div>
+                </a>
+                <div class="preview-event__content">
+                  <span class="preview-event__date common-date">21-го августа 2018 – 9-го сентября 2018</span>
+                  <h3 class="preview-event__title">US Open</h3>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </article>
@@ -76,6 +116,47 @@
         </div>
       </div>
     </footer>
+
+    <div id="contact-popup" class="popup contact-popup" hidden>
+      <div class="popup__title">Форма обратной связи</div>
+      <form class="contact-form" action="" method="POST">
+        <label class="field">
+          <span class="field__label visually-hidden">Ваше имя</span>
+          <div class="field__control">
+            <input class="field__input input" type="text" name="name" placeholder="Ваше имя*" required>
+          </div>
+        </label>
+        <label class="field">
+          <span class="field__label visually-hidden">Email</span>
+          <div class="field__control">
+            <input class="field__input input" type="email" name="email" placeholder="Ваш email*" required>
+          </div>
+        </label>
+        <label class="field">
+          <span class="field__label visually-hidden">Тема</span>
+          <div class="field__control">
+            <input class="field__input input" type="text" name="subject" placeholder="Тема сообщения*" required>
+          </div>
+        </label>
+        <label class="field">
+          <span class="field__label visually-hidden">Сообщение</span>
+          <div class="field__control">
+            <textarea class="field__input input" name="message" rows="4" placeholder="Сообщение*" required></textarea>
+          </div>
+        </label>
+        <!-- <label class="field">
+          <span class="field__label visually-hidden">Телефон</span>
+          <div class="field__control">
+            <input class="field__input input" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </div>
+        </label> -->
+        <div class="contact-form__submit-wrapper">
+          <button class="contact-form__submit button" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+
+
 
     <div class="out-cover">
       <div class="out-cover__inner">

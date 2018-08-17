@@ -240,6 +240,47 @@
       </div>
     </footer>
 
+    <div id="contact-popup" class="popup contact-popup" hidden>
+      <div class="popup__title">Форма обратной связи</div>
+      <form class="contact-form" action="" method="POST">
+        <label class="field">
+          <span class="field__label visually-hidden">Ваше имя</span>
+          <div class="field__control">
+            <input class="field__input input" type="text" name="name" placeholder="Ваше имя*" required>
+          </div>
+        </label>
+        <label class="field">
+          <span class="field__label visually-hidden">Email</span>
+          <div class="field__control">
+            <input class="field__input input" type="email" name="email" placeholder="Ваш email*" required>
+          </div>
+        </label>
+        <label class="field">
+          <span class="field__label visually-hidden">Тема</span>
+          <div class="field__control">
+            <input class="field__input input" type="text" name="subject" placeholder="Тема сообщения*" required>
+          </div>
+        </label>
+        <label class="field">
+          <span class="field__label visually-hidden">Сообщение</span>
+          <div class="field__control">
+            <textarea class="field__input input" name="message" rows="4" placeholder="Сообщение*" required></textarea>
+          </div>
+        </label>
+        <!-- <label class="field">
+          <span class="field__label visually-hidden">Телефон</span>
+          <div class="field__control">
+            <input class="field__input input" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </div>
+        </label> -->
+        <div class="contact-form__submit-wrapper">
+          <button class="contact-form__submit button" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+
+
+
     <div class="out-cover">
       <div class="out-cover__inner">
         <div class="out-cover__body">
@@ -275,46 +316,6 @@
         </div>
       </div>
     </div>
-
-    <div id="contact-popup" class="popup contact-popup" hidden>
-      <div class="popup__title">Форма обратной связи</div>
-      <form class="contact-form" action="" method="POST">
-        <label class="field">
-          <span class="field__label visually-hidden">Ваше имя</span>
-          <div class="field__control">
-            <input class="field__input input" type="text" name="name" placeholder="Ваше имя" required>
-          </div>
-        </label>
-        <label class="field">
-          <span class="field__label visually-hidden">Email</span>
-          <div class="field__control">
-            <input class="field__input input" type="email" name="email" placeholder="Ваш email*" required>
-          </div>
-        </label>
-        <label class="field">
-          <span class="field__label visually-hidden">Тема</span>
-          <div class="field__control">
-            <input class="field__input input" type="text" name="subject" placeholder="Тема сообщения" required>
-          </div>
-        </label>
-        <label class="field">
-          <span class="field__label visually-hidden">Сообщение</span>
-          <div class="field__control">
-            <textarea class="field__input input" name="message" rows="4" placeholder="Сообщение" required></textarea>
-          </div>
-        </label>
-        <!-- <label class="field">
-          <span class="field__label visually-hidden">Телефон</span>
-          <div class="field__control">
-            <input class="field__input input" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
-          </div>
-        </label> -->
-        <div class="contact-form__submit-wrapper">
-          <button class="contact-form__submit button" type="submit">Отправить</button>
-        </div>
-      </form>
-    </div>
-
 
   </div>
   <script src="js/jquery-3.2.1.min.js"></script>
